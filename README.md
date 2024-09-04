@@ -42,20 +42,19 @@ Create the certificates Table:
 Select the newly created database from the list on the left.
 Go to the SQL tab, paste the SQL code to create the certificates table, and click Go.
 
-sql
      CREATE TABLE certificates (
          id INT AUTO_INCREMENT PRIMARY KEY,
          intern_name VARCHAR(100),
          certificate_code VARCHAR(50) UNIQUE,
          issue_date DATE,
          is_valid BOOLEAN DEFAULT TRUE
-     );
+);
      
 Insert Sample Data (Optional):
 
 Use the SQL tab to insert sample data for testing purposes.
 
-sql
+
      INSERT INTO certificates (intern_name, certificate_code, issue_date, is_valid)
      VALUES ('John Doe', 'ABC123', '2024-08-30', TRUE);
      
