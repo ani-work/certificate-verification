@@ -70,15 +70,18 @@ Initialize Your Node.js Project:
 Open the Terminal by clicking the "Terminal" Tab and choosing "New Terminal"
 
 Once in the Terminal on the botton, run :
+    
     npm init -y 
+
 to initialize a new Node.js project.
 
 Install the required packages:
+     
      npm install express mysql2 body-parser
 
 4. Run Your Express.js Server
 
-Start Your Express.js Server:
+To start Your Express.js Server:
 
 Open VS Code and navigate to your project folder. Open the Terminal. Run the following code:
 
@@ -86,7 +89,11 @@ Open VS Code and navigate to your project folder. Open the Terminal. Run the fol
 
 Open the Web Interface: 
 
-Open your web browser and navigate to http://localhost:3000/ to access the front end page.
+Open your web browser and navigate to:
+
+http://localhost:3000/ 
+
+to access the front end page.
 
 Test the System:
 
