@@ -79,7 +79,21 @@ Install the required packages:
      
      npm install express mysql2 body-parser
 
-4. Run Your Express.js Server
+4. Important NOTE: Adjust port number of mysql.createConnection method
+
+Under this specific code segment:
+
+const db = mysql.createConnection({
+    host: 'localhost',
+    port: 3306,
+    user: 'root',
+    password: '',
+    database: 'certificate_db'
+});
+
+the port number 3306 applies to my specific mysql server running on my Windows machine using XAMPP control panel. This can differ for your system, depending on your setup of MySql. Kindly find out the port number of your specific mysql server on your PC and change the number accordingly
+
+5. Run Your Express.js Server
 
 To start Your Express.js Server:
 
